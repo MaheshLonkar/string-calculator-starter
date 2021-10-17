@@ -65,5 +65,11 @@ class StringCalculatorShould {
     	assertEquals(2, Calculator.add("1000,2"));
     }
 
+    @Test
+    public void testAnyDelimiter(){
+    	assertEquals(6, Calculator.add("//[***]\\n1***2***3"));
+    }
+    
+    
     
 }
