@@ -3,7 +3,8 @@ package calculator;
 class StringCalculator {
 
     public int add(String input) {
-        return 0;
-    }
+    	if(text.equals("")){
+			return 0;
+		}    }
 
 }
